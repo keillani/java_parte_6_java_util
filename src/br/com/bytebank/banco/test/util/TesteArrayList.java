@@ -4,13 +4,16 @@ import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class TesteArrayList {
     public static void main(String[] args) {
 
         //Generics <>
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        List<Conta> lista = new ArrayList<Conta>(); //usa array por baixo
+//        List<Conta> lista = new LinkedList<Conta>(); //lista linkada
+//        List<Conta> lista = new Vector<Conta>(); //usa array por baixo, mas tbm é threadsafe
+
 
         Conta cc = new ContaCorrente (22,11);
 //        Cliente cliente = new Cliente();
