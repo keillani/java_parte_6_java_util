@@ -14,7 +14,7 @@ import br.com.bytebank.banco.modelo.ContaPoupanca;
 //pela interface Comparator
 //pela interface Comparable (ordem natural)
 
-public class Teste {
+public class TesteOrdenacao {
 	public static void main(String[] args) {
 
 		Conta cc1 = new ContaCorrente(22, 33);
